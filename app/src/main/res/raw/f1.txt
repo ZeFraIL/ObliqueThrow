@@ -1,0 +1,2 @@
+Formula for initial horizontal velocity
+v0 = v0 + a*t

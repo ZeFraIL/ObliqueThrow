@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6A5A4"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivLogoMA"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/mechanics" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#F4EDB2"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/bInputData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Input Data" />
+
+                <Button
+                    android:id="@+id/bAnimation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Animation" />
+
+                <Button
+                    android:id="@+id/bTrajectory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trajectory" />
+
+                <Button
+                    android:id="@+id/bPoints"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Points" />
+
+                <Button
+                    android:id="@+id/bViewExercises"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View Exercises" />
+
+                <Button
+                    android:id="@+id/bConsepts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Concepts" />
+
+                <Button
+                    android:id="@+id/bUnits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Units" />
+
+                <Button
+                    android:id="@+id/bFormulas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Formulas" />
+
+                <Button
+                    android:id="@+id/bSelfStudy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Self Study" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_weight="1"/>
+
+</LinearLayout>

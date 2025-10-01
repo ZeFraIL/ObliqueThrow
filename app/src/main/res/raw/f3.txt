@@ -1,0 +1,1 @@
+Formula for calculating the total time of motion of a body (from the initial moment until it falls on the ground surface, x=0)

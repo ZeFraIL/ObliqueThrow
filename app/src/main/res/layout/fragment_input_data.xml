@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true"
+    android:importantForAccessibility="no"
+    tools:context=".InputDataFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/yatra_one"
+        android:text="Input data" />
+
+    <EditText
+        android:id="@+id/editTextH0"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the initial height (h0)"
+        android:inputType="numberDecimal"
+        android:imeOptions="flagNoExtractUi"/>
+
+    <EditText
+        android:id="@+id/editTextV0"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:windowSoftInputMode="adjustPan"
+        android:hint="Enter initial velocity (v0)"
+        android:inputType="numberDecimal"
+        android:imeOptions="flagNoExtractUi"/>
+
+    <EditText
+        android:id="@+id/editTextAngle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter throw angle(a)"
+        android:inputType="numberDecimal"
+        android:imeOptions="flagNoExtractUi"/>
+
+    <Button
+        android:id="@+id/bCalcResults"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Perform basic data calculation" />
+
+
+    <CheckBox
+        android:id="@+id/chbHmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H(max)" />
+
+    <CheckBox
+        android:id="@+id/chbLmax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L(max)" />
+
+    <CheckBox
+        android:id="@+id/chbTtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T(total)" />
+
+</LinearLayout>

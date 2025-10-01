@@ -1,0 +1,2 @@
+Initial vertical velocity formula
+v0 = v0 + a*t

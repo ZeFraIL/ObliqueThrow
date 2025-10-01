@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="TextToSpeech ON"
+        android:id="@+id/ttsOn" />
+    <item
+        android:title="TextToSpeech OFF"
+        android:id="@+id/ttsOff" />
+    <item
+        android:title="Go to guide"
+        android:id="@+id/guide"/>
+    <item
+        android:title="Back"
+        android:id="@+id/back"/>
+    <item
+        android:title="Credits"
+        android:id="@+id/credits"/>
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"/>
+    <item
+        android:id="@+id/backup_on"
+        android:title="ВBackup ON"/>
+    <item
+        android:id="@+id/backup_off"
+        android:title="Backup OFF"/>
+
+
+
+</menu>

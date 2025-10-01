@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ObliqueThrow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="scale_options">
+        <item>Scale Vertical</item>
+        <item>ПScale Horizontal</item>
+    </string-array>
+    <string-array name="consepts">
+        <item>Speed is</item>
+        <item>Angle is</item>
+        <item>Initial Speed is</item>
+        <item>Height is</item>
+        <item>Initial Height is</item>
+        <item>Range is</item>
+    </string-array>
+    <string-array name="units">
+        <item>m/s</item>
+        <item>rad</item>
+        <item>m</item>
+    </string-array>
+
+</resources>

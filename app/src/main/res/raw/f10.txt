@@ -1,0 +1,2 @@
+Formula for calculating the height of a body at any moment in time (during body movement)
+h = h0 + v0*t - 1/2*g*t^2

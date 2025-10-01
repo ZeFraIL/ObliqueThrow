@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9FCBEF"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".WelcomeUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+        <ImageView
+            android:id="@+id/ivLogoWU"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/mechanics" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/flWU"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginHorizontal="20dp"
+        android:padding="30dp"
+        android:background="#aaaaaa">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Choose what you need\nScroll buttons"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/LL_WU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:padding="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bLoginWU"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#009688"
+                android:layout_marginBottom="20dp"
+                android:text="Login"/>
+
+            <Button
+                android:id="@+id/bSignUpWU"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#009688"
+                android:layout_marginBottom="20dp"
+                android:text="Sign Up"/>
+
+            <Button
+                android:id="@+id/bAboutAppWU"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#009688"
+                android:layout_marginBottom="20dp"
+                android:text="About application"/>
+
+            <Button
+                android:id="@+id/bCreditWU"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#009688"
+                android:text="Credit"/>
+
+            <Button
+                android:id="@+id/bFromNetWU"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:backgroundTint="#009688"
+                android:text="Information from Net"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
